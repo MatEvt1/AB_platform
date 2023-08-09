@@ -6,12 +6,12 @@
 
 1. [DataService](DataService.py) — предоставляет доступ к сырым данным;
 - Доступ к сырым данным
-2. [MetricsService](MetricsService.py) — вычисляет метрики;
+2. [MetricsService](MetricService.py) — вычисляет метрики;
 - Вычисления метрик для эксперимента
 - Удаление выбросов
 - CUPED
 - Линеаризация для метрик отношения
-3. [ExperimentsService](ExperimentsService.py) — оценивает эксперименты;
+3. [ExperimentsService](ExperimentService.py) — оценивает эксперименты;
 - Проверка стат. значимости
 - Оценка размера выборки
 - Оценка вероятностей ошибки I/II рода
